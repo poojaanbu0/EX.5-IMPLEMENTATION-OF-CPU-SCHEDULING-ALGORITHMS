@@ -1,19 +1,21 @@
 # EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS
 
-# AIM: To implement First-Come-First-Serve (FCFS) Scheduling
+## AIM: To implement First-Come-First-Serve (FCFS) Scheduling
 
-ALGORITHM:
+## ALGORITHM:
+Start the process Get the number of processes to be inserted Get the value for burst time of each process from the use. Having allocated the burst time(bt) for individual processes , Start with the first process from its initial position let other process to be in queue Calculate the waiting time(wt) and turnaround time(tat) as Wt(pi) = wt(pi-1) + tat(pi-1) (i.e. wt of current process = wt of previous process + tat of previous process) tat(pi) = wt(pi) + bt(pi) (i.e. tat of current process = wt of current process + bt of current process) Calculate the total and average waiting time and turnaround time Display the values Stop the process
 
-
-PROGRAM:
-
-
-OUTPUT:
+## PROGRAM:
 
 
-RESULT: First-Come-First-Serve Scheduling is implemented successfully.
+## OUTPUT:
 
 
+## RESULT: First-Come-First-Serve Scheduling is implemented successfully.
+
+
+
+# SHORTEST JOB FIRST PREEMPTIVE SCHEDULING
 AIM: To implement Shortest Job First (SJF) Preemptive Scheduling
 
 ALGORITHM:
