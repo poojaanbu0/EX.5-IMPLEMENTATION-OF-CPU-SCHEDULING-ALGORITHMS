@@ -1,6 +1,6 @@
 # EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS
 
-AIM: To implement First-Come-First-Serve (FCFS) Scheduling
+# AIM: To implement First-Come-First-Serve (FCFS) Scheduling
 
 ALGORITHM:
 
