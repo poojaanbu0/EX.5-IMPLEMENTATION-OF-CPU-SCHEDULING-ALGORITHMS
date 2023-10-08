@@ -275,10 +275,10 @@ Round Robin (RR) Scheduling is implemented successfully.
 ## AIM:
 To implement Priority Preemptive Scheduling
 
-# ALGORITHM:
+## ALGORITHM:
 Start the process Get the number of processes to be inserted Get the corresponding priority of processes Sort the processes according to the priority and allocate the one with highest priority to execute first If two process have same priority then FCFS scheduling algorithm is used Calculate the total and average waiting time and turnaround time Display the values Stop the process
 
-# PROGRAM:
+## PROGRAM:
 ```
 #include<stdio.h>
 struct process
@@ -355,21 +355,21 @@ int main()
 }
 ```
 
-# OUTPUT:
+## OUTPUT:
 ![image](https://github.com/poojaanbu0/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/119390329/9108d2fe-5e73-466a-8b71-638b9cc2b34e)
 
-# RESULT: 
+## RESULT: 
 Priority Preemptive scheduling is implemented successfully.
 
 
-## PRIORITY NON - PREEMPTIVE SCHEDULING
-# AIM: 
+# PRIORITY NON - PREEMPTIVE SCHEDULING
+## AIM: 
 To implement Priority Non-Preemptive Scheduling
 
-# ALGORITHM:
+## ALGORITHM:
 Start the process Get the number of processes to be inserted Get the corresponding priority of processes Sort the processes according to the priority and allocate the one with highest priority to execute first If two process have same priority then FCFS scheduling algorithm is used Calculate the total and average waiting time and turnaround time Display the values Stop the process
 
-# PROGRAM:
+## PROGRAM:
 ```
 #include<stdio.h>
 
