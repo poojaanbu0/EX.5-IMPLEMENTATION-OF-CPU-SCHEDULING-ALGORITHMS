@@ -53,6 +53,7 @@ int main()
 ## RESULT: 
 First-Come-First-Serve Scheduling is implemented successfully.
 
+
 # SHORTEST JOB FIRST PREEMPTIVE SCHEDULING
 ## AIM:
 To implement Shortest Job First (SJF) Preemptive Scheduling
@@ -114,6 +115,8 @@ int main()
 
 ## RESULT: 
 Shortest Job First (SJF) preemptive scheduling is implemented successfully.
+
+
 
 # SHORTEST JOB FIRST NON - PREEMPTIVE SCHEDULING
 ## AIM:
